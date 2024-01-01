@@ -1,0 +1,51 @@
+{
+  "name": "tacticalmap-p91",
+  "id": "tacticalmap-p91",
+  "title": "Set of Rooms 2",
+  "description": "2 types of backgrounds, as well as empty rooms and furniture so they can be customized.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "1.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "11",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "set-of-rooms-2",
+      "label": "Set of Rooms 2",
+      "path": "packs/set-of-rooms-2.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "set-of-rooms-2",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p91/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p91/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
